@@ -2,10 +2,11 @@ package ai0326;
 
 import java.util.Scanner;
 
-public class scannerTest02 {
+public class BMITest02 {
     static void main(String[] args) {
 
         Scanner s = new Scanner(System.in);
+        Scanner s1 = new Scanner(System.in);
         System.out.print("===============BMI(BOdy Index Mass)===============");
         System.out.print("* 체중(kg, 실수값) 입력:");
         double weight = s.nextDouble();
@@ -18,7 +19,9 @@ public class scannerTest02 {
 
         double bmi = weight / Math.pow(height/100, 2); //((height/100)*(height/100))
 
-        System.out.printf("* %s님의 BMI 지수 결과: %.2f㎏/㎡", bmi);
+        System.out.printf("* %s님의 BMI 지수 결과: %.2f㎏/㎡",name, bmi);
+
+        s1.close();
         s.close();
     }
 }
