@@ -1,10 +1,10 @@
 package ai0528.access.modfire;
 
-import ai0528.access.Rabbit;
+import ai0528.access.Rabiit;
 
 public class Runrabbit {
     static void main(String[] args) {
-        Rabbit rabbit = new Rabbit();
+        Rabiit rabbit = new Rabiit();
 
       //  rabbit.setShape("동그라미");
         rabbit.shape = ("삼각형");

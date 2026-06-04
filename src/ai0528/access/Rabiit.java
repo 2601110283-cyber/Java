@@ -1,6 +1,6 @@
 package ai0528.access;
 
-public class Rabbit {
+public class Rabiit {
     //private String shape;
     //private int x;
     //private int y;
@@ -12,7 +12,6 @@ public class Rabbit {
    // String shape;
      //int x;
     //int y;
-
 
     public String getShape() {
         return shape;
